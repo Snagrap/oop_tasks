@@ -10,7 +10,7 @@ class UI{
 		li.appendChild(link);
 		const list=document.querySelector("ul");
 		list.appendChild(li);
-		const inpt=document.querySelector("#task");
+		const input=document.querySelector("#task");
 		input.value="";
 		task.addedToUI();
 	}
