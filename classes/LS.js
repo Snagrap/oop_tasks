@@ -1,5 +1,5 @@
 class LS{
-	getLSData(){
+	getData(){
 		let data;
 		if(localStorage.getItem("name") === null){
 			data=[];
@@ -25,5 +25,8 @@ class LS{
 			}
 		});
 		this.setData("tasks", tasks);
+	}
+	deleteTasks(){
+		localStorage.clear();
 	}
 }
